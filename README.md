@@ -1,7 +1,7 @@
 # c-number-guesser
 program to practice C for CS-121
 
-## algorithm
+*algorithm*
 ~~~ 
 create int for correct
 create int for guess
