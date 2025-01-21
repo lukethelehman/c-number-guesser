@@ -1,8 +1,9 @@
 # c-number-guesser
 program to practice C for CS-121
 
-## algorithm 
-create int for correct 
+## algorithm
+~~~ 
+create int for correct
 create int for guess
 create int for turn init to 0
 create boolean keepGoing
@@ -32,3 +33,4 @@ if turns == 7:
 	print "Good"
 if turns > 7:
 	print "You should be able to do it in 7 turns"
+~~~
