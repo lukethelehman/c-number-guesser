@@ -29,27 +29,13 @@ int main(){
 			printf("Right on!\n");
 			keepGoing = 0;
 		}
-
+	}
+	if (turn <= 7) {
+		printf("Great Job! You got it in %d guesses\n", turn);
 
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*
-	for (int i = 0; i < 10; i++){
-	int myNumber = (rand() % 6) + 1;
-	printf("%d \n", myNumber);}
-	return 0;
-	*/
+	if (turn > 7) {
+		printf("You took %d guesses, it should only take 7 at the most...\n", turn);
+	}
 
 } //end main
